@@ -12,7 +12,7 @@
 
 
 
-##  The Threat Landscape (CWE-316)
+# The Threat Landscape (CWE-316)
 
 When standard C++ applications handle sensitive data using `std::string`, the data is written to the heap. When the variable is destroyed, the pointer is deleted, but **the plaintext characters remain actively sitting in physical RAM** until overwritten by another program. 
 
@@ -22,7 +22,7 @@ If an attacker dumps the process memory (via tools like Mimikatz, Procdump, or T
 
 
 
-##  The Arsenal (How SecureVault Works)
+# The Arsenal (How SecureVault Works)
 
 SecureVault overrides standard C++ memory mechanics to provide military-grade guarantees:
 
@@ -40,7 +40,7 @@ SecureVault overrides standard C++ memory mechanics to provide military-grade gu
 
 
 
-##  Forensic Proof of Concept
+# Forensic Proof of Concept
 
 
 
@@ -61,7 +61,7 @@ To prove the efficacy of this engine, I built a dynamic simulation that asks for
 
 
 
-##  Quick Start / Usage
+# Quick Start / Usage
 
 
 
