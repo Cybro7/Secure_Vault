@@ -53,7 +53,7 @@ To prove the efficacy of this engine, I built a dynamic simulation that asks for
 | ![Insecure Dump](https://github.com/user-attachments/assets/96d1badd-fdcc-44e5-9c4a-d99a2da2751e) | ![Secure Dump](https://github.com/user-attachments/assets/51076af1-dc11-483e-b42d-256c562a7477) |
 
 
-*The forensic analysis proves that standard C++ leaves the dynamic password sitting in plain text, while SecureVault successfully zeroes out the physical memory block upon destruction.*
+*The analysis proves that standard C++ leaves the dynamic password sitting in plain text, while SecureVault successfully zeroes out the physical memory block upon destruction.*
 
 
 
